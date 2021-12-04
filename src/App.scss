@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+.first {
+  margin-top: 127px;
+}
+.nav {
+  height: 100%;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+  background: #FFE4D6;
+}
+.routesContainer{
+  height: 100%;
+  background: #E5E5E5;
+  width: 100%;
+}
+.mainTitle {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  margin-left: 99px;
+}
+.itemContainer {
+  padding-left: 56px;
+  display: flex;
+  justify-content: flex-start;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.filtersContainer {
+  display: flex;
+  gap: 48px;
+  margin-right: 99px;
+}
+.filtersItem {
+  cursor: pointer;
+  color: #CBB1A2;
+  font-size: 24px;
+  line-height: 29px;
+}
+.imageListContainer {
+  height: 800px;
+  overflow-y: scroll;
+  margin-top: 71px;
+  gap: 60px;
+}
+.listItem {
+  height: 544px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+.itemWrapper {
+  padding-left: 99px;
+  padding-right: 99px;
+}
+.time {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-top: 42px;
+  margin-right: 96px;
+}
